@@ -1,15 +1,22 @@
 CLN AV:Wipe Walls, Wet, Medium *and/or* Wipe Ceiling, Wet, Medium 
-CLN AV+:Wipe Walls, Wet, Heavy *and/or* Wipe Ceiling, Wet, Heavy  
+CLN AV+:Wipe Walls, Wet, Heavy *and/or* Wipe Ceiling, Wet, Heavy 
+CLN BF:Clean Door, Closet *Various widths available. *Door hardware not included.
+CLN BF<:Clean Folding Door *Door hardware not included.
+CLN CA:Clean Register, Cold Air Return 
+CLN DOR:Clean Door Only, Interior
 CLN DODR:Ozone Treatment (CF)
 CLN DODRSP:Vapor Odor Counteractant (Nano-Deodorization)
+CLN DORH:Clean Door Hardware 
 CLN F-:Wipe Floor, Wet, Medium
 CLN F-+:Wipe Floor, Wet, Heavy
 CLN FAU:Clean Faucet
 CLN FAU+:Clean, Heavy Faucet
 CLN FCT:Clean Tile Floor
 CLN FCT+:Clean, Heavy Tile Floor
+CLN FINALR:Final Clean, per SF
 CLN JST:Clean Floor/Ceiling Joists, Over 6"
 CLN JST+:Clean, Heavy Floor/Ceiling Joists, Over 6"
+CLN LOW:Clean Cabinet, Base
 CLN OS:Clean Outlet/Switch *or* Clean, Heavy Outlet/Switch 
 CLN REG:Clean Register, Cold Air Return
 CLN SNK:Clean Sink, Single Bowl
@@ -18,8 +25,9 @@ CLN SNKD:Clean Sink, Double Bowl
 CLN SNKD+:Clean, Heavy Sink, Double Bowl
 CLN STD:Clean Wall Framing w/o Sheating
 CLN STD+:Clean, Heavy Wall Framing w/o Sheating
+CLN UL:Clean Underlayment
 CLN WD:Clean Glass *and/or* Clean Window Sill *and/or* Clean Window Jamb *and/or* Clean Window Trim Set, Medium *and/or* Clean Window Hardware
-CON LAB:Content Manipulation, Per Hour *or* Content Manipulation 
+CON LAB:Content Manipulation, Per Hour 
 CON ROOM<:Content Manipulation, Small Room
 CON ROOM:Content Manipulation, Medium Room
 CON ROOM>:Content Manipulation, Large Room
@@ -65,11 +73,11 @@ WTR BCA:After Hours unavailable for this line item
 WTR BCS:Cat 3 Unavailable For This Line Item
 WTR BCSA:Both Cat 3 and After Hours Unavailable For This Line Item
 WTR BIDITM:Bid Item, Mitigation
-WTR BMUD:Tear Out & Bag Mud Base for Tile Flooring, Druing Business Hours *Cat 3 & After Hours available
+WTR BMUD:Tear Out Mud Base, Floor Tile
 WTR CABVAN:Tear Out Vanity (LF) Good
 WTR CABVANA:After Hours Unavailable For This Line Item
-WTR CABVNC:Vanity & Countertop tear out unavailable, use Tear Out Vanity (LF) Good *and* Countertop Tear Out 
-WTR CABVNCA:After Hours Unavailable For This Line Item
+WTR CABVNC:Tear Out Vanity (LF) Good *and* Tear Out & Bag Countertops, During Business Hours
+WTR CABVNCA:Tear Out Vanity (LF) Good *and* Tear Out & Bag Countertops, After Hours
 WTR CABVND:Remove Vanity (LF) Good
 WTR CABVNDA:After Hours Unavailable For This Line Item
 WTR CABFH:Tear Out & Bag Full Height Cabinets, During Business Hours
@@ -91,7 +99,7 @@ WTR CSVA:Tear Out & Bag, Underlayment/Vapor Barrier, After Hours
 WTR CSVS:Tear Out & Bag, Underlayment/Vapor Barrier, Category 3 Water
 WTR CSVSA:Tear Out & Bag, Underlayment/Vapor Barrier, Category 3 Water, After Hours
 WTR CTFL:Tear Out Countertop, Laminate (LF) Good
-WTR CTFLA:After Hours Unavailable For This Line Item
+WTR CTFLA:After Hours for tear out unavailable
 WTR CTFLD:Detatch Counterop, Laminate, During Business Hours
 WTR CTFLDA:Detatch Counterop, Laminate, After Hours
 WTR CTSS:Tear Out Countertop, Solid Surface Good
@@ -124,6 +132,10 @@ WTR DRYW4SA:Tear Out & Bag Wet Drywall, Up to 4' Category 3 Water, After Hours
 WTR DRYWH:Line Item Not Available
 WTR DRYWG:Glued On Drywall During Business Hours
 WTR DRYWGA:Glued On Drywall After Hours
+WTR DUCTLF:Ducting, Flat Lying
+WTR DUCT6:Line Item Not Available
+WTR DWD:Detach Dishwasher, During Business Hours
+WTR DWDA:Detach Dishwasher, After Hours
 WTR EQ:Equipment Set-up, Take Down, & Monitor During Business Hours
 WTR EQA:Equipment Set-up, Take Down, & Monitor After Hours
 WTR EQD:Decontaminate Equipment
@@ -142,6 +154,11 @@ WTR EXTHA:Extract Water From Floor, Hard Surface After Hours
 WTR EXTHGA:Extract Water From Floor, Hard Surface Category 2 Water, After Hours
 WTR EXTHS:Extract Water From Floor, Hard Surface Category 3 Water
 WTR EXTHSA:Extract Water From Floor, Hard Surface Category 3 Water, After Hours
+WTR EXTWP:Pump Standing Category 3 Water, Per Gal During Business Hours
+WTR EXTWPA:Pump Standing Category 3 Water, Per Gal After Hours
+WTR EXTWPC:Pump Standing Water
+WTR EXTWPT:Line Item Unavailable *use* Pump Standing Water
+WTR EXTWPTM:Line Item Unavailable
 WTR FCC:Tear Out & Bag Wet Carpet During Business Hours
 WTR FCCA:Tear Out & Bag Wet Carpet After Hours 
 WTR FCCS:Tear Out & Bag Wet Carpet Category 3 Water
@@ -154,6 +171,10 @@ WTR FCCGDN:Wet Carpet, Glued Down, No Bagging During Business Hours
 WTR FCCGDNA:Wet Carpet, Glued Down, No Bagging After Hours
 WTR FCCGSN:Wet Carpet, Glued Down, No Bagging Category 3 Water
 WTR FCCGSNA:Wet Carpet, Glued Down, No Bagging Category 3 Water, After Hours
+WTR FCT:Tear Out & Bag Wet Tile Flooring, During Business Hours
+WTR FCTS:Tear Out & Bag Wet Tile Flooring, Category 3 Water, During Business Hours
+WTR FCTA:Tear Out & Bag Wet Tile Flooring, After Hours
+WTR FCTSA:Tear Out & Bag Wet Tile Flooring, Category 3 Water, After Hours
 WTR FCV:Tear Out & Bag Vinyl Flooring During Business Hours
 WTR FCVA:Tear Out & Bag Vinyl Flooring After Hours
 WTR FCVL:Tear Out & Bag Vinyl, Additional Layer During Business Hours
@@ -171,29 +192,31 @@ WTR FCVUVS:Tear Out & Bag Vinyl & Underlayment, Category 3 Water
 WTR FCVUVSA:Tear Out & Bag Vinyl & Underlayment, Category 3 Water, After Hours
 WTR FCW:Tear Out & Bag Wood Flooring During Business Hours
 WTR FCWA:Tear Out & Bag Wood Flooring After Hours
-WTR FCWGC:Line Item Not Available 
-WTR FCWGCA:Line Item Not Available
-WTR FCWGW:Line Item Not Available
-WTR FCWGWA:Line Item Not Available
-WTR FCWL:Tear Out & Bag Wood Flooring During Business Hours
-WTR FCWLA:Tear Out & Bag Wood Flooring After Hours
-WTR FCWLN:Line Item Not Available
-WTR FCWLNA:Line Item Not Available
-WTR FCWLS:Tear Out & Bag Wood Flooring Category 3 Water
-WTR FCWLSA:Tear Out & Bag Wood Flooring, Category 3 Water, After Hours
-WTR FCWLSN:Line Item Not Available
-WTR FCWLSNA:Line Item Not Available
-WTR FCWN:Line Item Not Available
-WTR FCWNA:Line Item Not Available
+WTR FCWGC:Remove Wet Wood Floor From Concrete Substrate, Glued Down
+WTR FCWGCA:Remove Wet Wood Floor From Concrete Substrate, Glued Down, After Hours
+WTR FCWGW:Remove Wet Wood Floor From Concrete Substrate, Glued Down
+WTR FCWGWA:Remove Wet Wood Floor From Concrete Substrate, Glued Down, After Hours
+WTR FCWL:Tear Out & Bag Laminate Floor During Business Hours
+WTR FCWLA:Tear Out & Bag Laminate Floor After Hours
+WTR FCWLN:*"No Bagging" Unavailable for this line item
+WTR FCWLNA:"No Bagging" Unavailable for this line item
+WTR FCWLS:Tear Out & Bag Laminate Floor Category 3 Water
+WTR FCWLSA:Tear Out & Bag Laminate Floor Category 3 Water, After Hours
+WTR FCWLSN:"No Bagging" Unavailable for this line item
+WTR FCWLSNA:"No Bagging" Unavailable for this line item
+WTR FCWN:"No Bagging" Unavailable for this line item
+WTR FCWNA:"No Bagging" Unavailable for this line item
 WTR FCWS:Tear Out & Bag Wood Flooring Category 3 Water
 WTR FCWSA:Tear Out & Bag Wood Flooring, Category 3 Water, After Hours
-WTR FCWSC:Line Item Not Available
-WTR FCWSN:Line Item Not Available
-WTR FCWSNA:Line Item Not Available
+WTR FCWSC:Screen Wood Floor
+WTR FCWSN:"No Bagging" Unavailable for this line item
+WTR FCWSNA:"No Bagging" Unavailable for this line item
 WTR FHEPA:HEPA Filter, Negative Air Machine, Small
 WTR FHEPA<:HEPA Filters Canister/Backpack Vacuum
 WTR FHEPA>:HEPA Filter, Negative Air Machine, Medium
 WTR FHEPA<<:HEPA Filters Upright Vacuum
+WTR FLVAP:Carbon Vapor Filter, Air Scrubber 16"x16" 
+WTR FLVAP>:Carbon Vapor Filter, Air Scrubber 24"x24" 
 WTR HEPAVAL:HEPA Vacuuming, Per SF
 WTR HEPAVAC:HEPA Vacuuming, Per Hour
 WTR HEPAVAS:HEPA Vacuuming, Detailied, Per SF
@@ -202,7 +225,10 @@ WTR HEPAWSH:Line Item Not Available
 WTR HEPAF:Line Item Not Available
 WTR HEPAFSH:Line Item Not Available
 WTR FHEPAC:Line Item Not Available
+WTR GRM:Apply Anti-Microbial Agent During Business Hours
+WTR GRMA:Apply Anti-Microbial Agent After Hours
 WTR GRMB:Apply Botanical Anti-Microbial Agent During Business Hours
+WTR GRMBA:Apply Botanical Anti-Microbial Agent After Hours
 WTR INS:Tear Out & Bag Wet Insulation During Business Hours
 WTR INSS:Tear Out & Bag Wet Insulation Category 3 Water
 WTR INSA:Tear Out & Bag Wet Insulation After Hours
@@ -211,6 +237,7 @@ WTR INSC:Tear Out & Bag Insulation, Crawl Space During Business Hours
 WTR INSSC:Tear Out & Bag Insulation, Crawl Space Category 3 Water
 WTR INSSCA:Tear Out & Bag Insulation, Crawl Space Category 3 Water, After Hours
 WTR LAB:Remediation Technician, Water Extraction During Business Hours
+WTR LABA:Remediation Technician, Water Extraction After Hours
 WTR LABA:Remediation Technician, Water Extraction During Business Hours
 WTR LIFT:Lift Carpet for Drying During Business Hours
 WTR LIFTA:Lift Carpet for Drying After Hours
@@ -236,29 +263,60 @@ WTR PNLS:Tear Out & Bag Wet Paneling Category 3 Water
 WTR PNLSA:Tear Out & Bag Wet Paneling Category 3 Water, After Hours
 WTR PNLSN:Tear Out Wet Paneling, No Bagging Category 3 Water
 WTR PNLSNA:Tear Out Wet Paneling, No Bagging Category 3 Water, After Hours
+WTR POWD:Power Distribution Box, Temporary
+WTR POWD>:Line Item Not Available
 WTR PPE:PPE Daily, Per Person, General Purpose *or* PPE Daily, Per Person, Category 3 Water
 WTR PPE+:PPE Daily, Per Person, Heavy Duty General Purpose *or* PPE Daily, Per Person, Heavy Duty, Category 3 Water
+WTR PPEG6:PPE Gloves Nitrile, General Purpose 
 WTR PPEM:PPE, Mask, N95, General Purpose *or* Mask, N95, Category 3 Water
 WTR PPERC:Respirator Cartridge, Each Pair HEPA Only
 WTR PPERCM:Respirator Cartridge, Each Pair HEPA, Then Vapor, Then Gas
 WTR PPERF:Multi-Purpose Respirator, Full Face 
 WTR PPERH:Multi-Purpose Respirator, Half Face
-WTR RFD:Remove Refrigerator, 12 CF Good
+WTR RGED:Detach Range, Electric, During Business Hours
+WTR RGEDA:Detach Range, Electric, After Hours
+WTR RGGD:Detach Range, Gas, During Business Hours
+WTR RGGDA:Detach Range, Gas, After Hours
+WTR RFD:Detatch Refrigerator with Water Supply Line, During Business Hours *or* Detatch Refrigerator, without Water Supply Line, During Business Hours
+WTR RFDA:Detatch Refrigerator with Water Supply Line, After Hours *or* Detatch Refrigerator, without Water Supply Line, After Hours
+WTR SF:Tear Out Subfloor 
+WTR SFA:After Hours Unavailable for subfloor tear out
+WTR SFS:Cat 3 unavailable for subfloor tear out
+WTR SFSA:Line Item Not Available
+WTR SFSL:Tear Out Sleeper
+WTR SFSLA:Line Item Not Available
+WTR SFSLS:Line Item Not Available
+WTR SFSLSA:Line Item Not Available
+WTR SNKD:Detach Bathroom Sink, During Business Hours
+WTR SNKDA:Detach Bathroom Sink, After Hours 
+WTR SNKDD:*Double Basin Detach unavailable 
+WTR SNKDDA:*Double Basin Detach unavailable 
+WTR SNKPD:Detach Pedestal Sink, During Business Hours
+WTR SNKPDA:Detach Pedestal Sink, After Hours
+WTR SNKUD:Detach Kitchen Sink, During Business Hours
+WTR SNKUDA:Detach Kitchen Sink, After Hours
 WTR TACK:Tear Out & Bag Tack Strips, During Business Hours
 WTR TACKA:Tear Out & Bag Tack Strips, After Hours   
 WTR TACKS:Cat 3 charge unavailable for this line item
 WTR TACKSA:Cat 3 charge unavailable for this line item
-WTR TIL:Tear Out & Bag Wet Tile Flooring, During Business Hours
-WTR TILA:Tear Out & Bag Wet Tile Flooring, After Hours
-WTR TILS:Tear Out & Bag Wet Tile Flooring, Category 3 Water, During Business Hours
-WTR TILSA:Tear Out & Bag Wet Tile Flooring, Category 3 Water, After Hours
+WTR TIL:Line Item Not Available
+WTR TILA:Line Item Not Available
+WTR TILS:Line Item Not Available
+WTR TILSA:Line Item Not Available
+WTR TLTD:Detach Toilet, During Business Hours
+WTR TLTDA:Detach Toilet, After Hours
 WTR TRI:Tear Out & Bag Wet Trim/Base During Business Hours
 WTR TRIA:Tear Out & Bag Wet Trim/Base After Hours
 WTR TRIM:Tear Out & Bag Wet Trim/Base Category 3 Water
 WTR TRIMA:Tear Out & Bag Wet Trim/Base Category 3 Water, After Hours
+WTR TUBD:Remove Bath/Shower Unit Good
+WTR TUBDA:After Hours Unavailable for this line item
 WTR ULAY:Tear Out & Bag Underlayment During Business Hours
 WTR ULAYA:Tear Out & Bag Underlayment After Hours
 WTR ULAYS:Tear Out & Bag Underlayment Category 3 Water
 WTR ULAYSA:Tear Out & Bag Underlayment Category 3 Water, After Hours
+WTR WALLH:Drill Holes for Wall Cavity Drying During Business Hours
+WTR WALLHA:Drill Holes for Wall Cavity Drying After Hours
 WTR WFI:Heat Drying, Drying Blanket or Mat, Per 24 hr Period
-WTR WSHD:Remove Washer, Electric Good
+WTR WSHD:Detatch Washer, Electric, During Business Hours
+WTR WSHDA:Detatch Washer, Electric, After Hours 
